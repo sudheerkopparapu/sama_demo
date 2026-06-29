@@ -2,7 +2,12 @@
   "name": "Dev 2",
   "color": "#465A64",
   "items": [],
-  "shared": [],
+  "shared": [
+    {
+      "objectId": "t_shirt_data",
+      "objectType": "DATASET"
+    }
+  ],
   "position": {},
   "tags": [],
   "customFields": {},
