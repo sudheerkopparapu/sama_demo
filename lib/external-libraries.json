@@ -1,5 +1,12 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python": {
+      "remote": "git@github.com:dataiku/vanguard-sec-projects.git",
+      "checkout": "refs/heads/main",
+      "remotePath": "data_prep",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
     "python"
   ],
