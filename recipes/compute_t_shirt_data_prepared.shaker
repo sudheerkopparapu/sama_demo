@@ -33,6 +33,10 @@
       {
         "d": true,
         "name": "total"
+      },
+      {
+        "d": true,
+        "name": "total_for_10units"
       }
     ]
   },
@@ -70,7 +74,7 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FilterOnBadType",
@@ -83,6 +87,18 @@
         "action": "REMOVE_ROW",
         "appliesTo": "SINGLE_COLUMN",
         "type": "LongMeaning"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "total * 11",
+        "column": "total_for_10units",
+        "errorColumn": ""
       },
       "alwaysShowComment": false
     }
@@ -117,6 +133,7 @@
   "columnWidthsByName": {
     "pages_visited": 113,
     "tshirt_category": 155,
+    "total_for_10units": 143,
     "order_date": 120,
     "total": 134,
     "tshirt_quantity": 128,
