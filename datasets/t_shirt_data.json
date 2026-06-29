@@ -51,7 +51,7 @@
     "bucket": "dku-ds-platform-data",
     "metastoreSynchronizationEnabled": true,
     "metastoreTableName": "t_shirt_data",
-    "connection": "s3",
+    "connection": "dataiku-managed-storage",
     "path": "/dataiku/${projectKey}/t_shirt_data",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {

@@ -9,7 +9,7 @@
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
   "hasSetupSection": false,
-  "owner": "sudheer.kopparapu",
+  "owner": "sudheer.kopparapu@dataiku.com",
   "permissionsVersion": "V2",
   "permissions": [],
   "additionalDashboardUsers": {
@@ -24,7 +24,7 @@
       "zonesGraphForJobs": true,
       "respectTraversalOrder": false,
       "zonesManualPositioning": false,
-      "showFlowZoneDescriptions": false
+      "showFlowZoneDescriptions": true
     },
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
@@ -250,7 +250,8 @@
     "Asset:Standard Enablement Content",
     "Technical Dimension:Version control",
     "Technical Dimension:GIT",
-    "duplicated"
+    "duplicated",
+    "imported"
   ],
   "customFields": {
     "gdpr_forbid_dataset_sharing": false,

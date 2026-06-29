@@ -6,6 +6,9 @@
     "Technical Dimension:GIT": {},
     "Asset:Standard Enablement Content": {},
     "recipe-editor": {},
+    "imported": {
+      "color": "#263238"
+    },
     "Technical Dimension:Version control": {}
   }
 }

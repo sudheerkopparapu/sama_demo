@@ -5,7 +5,7 @@
     "bucket": "dku-ds-platform-data",
     "metastoreSynchronizationEnabled": true,
     "metastoreTableName": "${odbId}",
-    "connection": "s3",
+    "connection": "dataiku-managed-storage",
     "path": "/dataiku/${projectKey}/${odbId}",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
@@ -23,7 +23,8 @@
   "flowOptions": {
     "virtualizable": false,
     "rebuildBehavior": "NORMAL",
-    "crossProjectBuildBehavior": "DEFAULT"
+    "crossProjectBuildBehavior": "DEFAULT",
+    "ignoreErrorStatusOnBuild": false
   },
   "metrics": {
     "probes": [
