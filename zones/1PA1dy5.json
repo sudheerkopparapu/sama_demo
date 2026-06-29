@@ -1,7 +1,20 @@
 {
   "name": "Master Zone",
   "color": "#087ABF",
-  "items": [],
+  "items": [
+    {
+      "objectId": "MOVzMGpu",
+      "objectType": "MANAGED_FOLDER"
+    },
+    {
+      "objectId": "compute_t_shirt_data",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "t_shirt_data",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "position": {},
   "tags": [],
