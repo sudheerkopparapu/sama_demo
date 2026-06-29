@@ -252,7 +252,7 @@
       "customPromptMode": "APPEND_TO_GLOBAL"
     }
   },
-  "name": "[STARTER] Collaboration with Git and DSS",
+  "name": "[STARTER] Collaboration with Git and DSS SUDHEERKOPPARAPU",
   "imgPattern": 4,
   "metrics": {
     "probes": [],
@@ -310,7 +310,7 @@
     }
   },
   "description": "This standard enablement project on “Git and DSS” provides step-by-step walk-throughs (with screenshots) on:\n- The built-in DSS version control features.\n- How to conduct merges entirely within DSS (feature available in DSS starting in version 13.1.0).\n- How to conduct merges outside of DSS (using GitHub) and pull those changes into DSS. \n\nYou can use this deck: https://docs.google.com/presentation/d/1e6osFqOALDkflHFp8vUmB051KYfFUE6itWU1lhskmLI/edit?pli\u003d1#slide\u003did.g2f961ea252d_0_19 \n\nNote: If you need to do a live presentation of the remote workflow with GitHub, you will need to create the process locally with your own private GitHub repo or ask IT to give your ds-cluster project access to a GitHub repository.\n",
-  "shortDesc": "Authors: Lauren Diperna \u0026 Neba Nfonsang\n\nAsset Owner: Anna Minges",
+  "shortDesc": "Authors: Lauren Diperna \u0026 Neba Nfonsang\n\nAsset Owner: Anna Minges\nThe project *STARTERCOLLABORATIONWITHGITANDDSSSUDHEERKOPPARAPU* was copied from *STARTERCOLLABORATIONWITHGITANDDSS* by DSS on Jun 29th 2026",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
