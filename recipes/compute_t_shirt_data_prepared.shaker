@@ -96,7 +96,9 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "total * 11",
+
+        "expression": "total * 10",
+
         "column": "total_for_10units",
         "errorColumn": ""
       },
