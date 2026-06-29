@@ -23,7 +23,8 @@ df = pd.read_csv(BytesIO(data))
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 df['total'] = df['tshirt_price'] * df['tshirt_quantity']
-
+# total in Euros
+df['total_in_euros'] = df['tshirt_price'] * df['tshirt_quantity'] * 0.90
 # update text category description
 df['tshirt_category'] = df['tshirt_category'].str.replace('Wh ', 'White ')
 
